@@ -1,0 +1,58 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #e0f7fa, #4fc3f7); /* Soft teal gradient */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #0277bd; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual machine sections */
+.machine {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    position: relative;
+}
+
+.machine:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #80deea, #4fc3f7); /* Gradient on hover */
+}
+
+/* Title 
